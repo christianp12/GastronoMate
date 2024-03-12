@@ -1,0 +1,42 @@
+    <nav class="navbar custom-navbar-bg fixed-top">
+        <div class="container-fluid px-4">
+            <a class="navbar-brand" href="/"><div style="width: 100%"><span style="color: #0B5A18; font-size: 24px; font-family: Lato; font-weight: 700; text-transform: uppercase; word-wrap: break-word">Gastrono</span><span style="color: #12B868; font-size: 24px; font-family: Lato; font-weight: 700; text-transform: uppercase; word-wrap: break-word">Mate</span></div></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header d-flex justify-content-center">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                        <a class="navbar-brand" href="#">
+                            <img
+                                    src="/images\GastronomateMateLogo.svg"
+                                    height="130rem"
+                                    alt="GASTRONOMATE"
+                            />
+                        </a>
+                    </h5>
+                    <button type="button" class="btn-close ps-3" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/admin/">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/admin/users/dashboard">Users Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/admin/recipes/dashboard">Recipes Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/admin/reviews/dashboard">Reviews Dashboard</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/logout">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>

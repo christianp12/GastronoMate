@@ -1,0 +1,61 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css'); /* myCss.css */
+
+/* Sovrascrivi le variabili di colore di Bootstrap con i tuoi colori */
+:root {
+    --bs-primary: #b2d3a8ff; /* Light green color */
+    --bs-secondary: #52b788ff; /* Darker shade of green */
+    --bs-success: #ede5a6ff; /* Light yellowish color */
+    --bs-info: #105241ff; /* Dark green color */
+}
+
+
+.bg-primary {
+    background-color: var(--bs-primary)  !important; /* Sostituisci con il tuo nuovo colore */
+    color: var(--bs-info)  !important; /* Se necessario, specifica anche il colore del testo */
+}
+.bg-secondary {
+    background-color: var(--bs-secondary)  !important; /* Sostituisci con il tuo nuovo colore */
+    color: var(--bs-info)  !important; /* Se necessario, specifica anche il colore del testo */
+}
+
+/* Importa Bootstrap CSS dopo aver definito le tue variabili personalizzate */
+
+/* Aggiungi altre regole di stile personalizzate qui se necessario */
+body {
+    background-color: var(--bs-success);
+    color: var(--bs-info);
+}
+
+header {
+    background-color: var(--bs-secondary);
+}
+
+nav ul li a {
+    color: var(--bs-primary);
+}
+
+nav ul li a:hover {
+    color: var(--bs-success);
+}
+
+.main {
+    color: var(--bs-info);
+}
+
+.recipe-cards {
+    background-color: var(--bs-success);
+}
+
+.card {
+    background-color: var(--bs-secondary);
+    color:white;
+}
+
+footer {
+    background-color: var(--bs-secondary);
+    color: var(--bs-success);
+}
+
+.navbar-nav .nav-link {
+    font-size: 28px;
+}

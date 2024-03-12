@@ -1,0 +1,11 @@
+<footer class="custom-footer-bg text-light p-4 mt-5 fixed-bottom">
+    <div class="container">
+        <p class="mb-0">
+            &copy; 2023 GastronoMate - All rights reserved.
+        </p>
+
+        <p class="mb-0">
+            <a href="#" class="text-light">Privacy e Cookie Policy</a>
+        </p>
+    </div>
+</footer>
